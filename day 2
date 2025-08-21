@@ -1,0 +1,26 @@
+a=int(input("enter marks"))
+if a>100:
+    print("invalid")
+elif a>=90:
+    print("A+")
+elif a>=75:
+    print("A")
+elif a>=60:
+    print("B")
+elif a>=40:
+    print("C")
+else:
+    print("FAIL")
+
+
+
+
+a=6
+if a>5:
+    print("number greater than 5")
+elif a==18:
+    print("wait for some time")
+elif a>18:
+    print("eligible to vote")
+else:
+    print("go to school")
