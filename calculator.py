@@ -1,22 +1,27 @@
 while True:
-     a=input("enter a value for calculation")
-     b=int(input("enter first number:"))
-     c=int(input("enter second number:"))
-     if a=="+":
-        print(b+c)
-     elif a=="-":
-         print(b-c)
-     elif a=="*":
-         print(b**c)
-     elif a=="*":
-         print(b*c)
-     elif a=="%":
-         print(b%c)
-     elif a=="/":
-         print(b/c)
-     else:
-         print("invalid")
-    
-             
-        
-    
+
+ case=str(input("enter case:"))
+ num1=float(input("enter number:"))
+ num2=float(input("enter number:"))
+
+
+ if "+":
+  print(num1+num2)
+ elif "-":
+  print(num1-num2)
+ elif "*":
+  print(num1*num2)
+ elif "/":
+  print(num1/num2)
+ elif "%":
+  print(num1%num2)
+ elif "**":
+  print(num1**num2)
+
+
+ print("the calculation of the numbers are:",case)
+ 
+ 
+
+
+     
